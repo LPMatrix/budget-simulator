@@ -1,4 +1,3 @@
-<!-- src/routes/+page.svelte -->
 <script>
   import { fly, fade } from 'svelte/transition';
   import BudgetSlider from '$lib/components/BudgetSlider.svelte';

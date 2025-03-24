@@ -121,9 +121,9 @@ export async function generateMovieDescription(allocations, totalBudget) {
     try {
       // For development/demo purposes, return mock responses
       // In production, uncomment the API call below
-      return mockMistralResponse(prompt);
+    //   return mockMistralResponse(prompt);
       
-      /*
+      
       const response = await fetch(MISTRAL_API_URL, {
         method: 'POST',
         headers: {
@@ -146,7 +146,7 @@ export async function generateMovieDescription(allocations, totalBudget) {
       
       const data = await response.json();
       return data.choices[0].message.content.trim();
-      */
+      
     } catch (error) {
       console.error('Error calling Mistral API:', error);
       return "Sorry, I couldn't generate a description at this time. Please try again later.";
