@@ -44,6 +44,7 @@
       { value: 250000000, label: 'Mega Blockbuster ($250M)' }
     ],
     wedding: [
+      { value: 2000000, label: 'Minimal (₦2M)' },
       { value: 5000000, label: 'Budget (₦5M)' },
       { value: 15000000, label: 'Modest (₦15M)' },
       { value: 30000000, label: 'Average (₦30M)' },
